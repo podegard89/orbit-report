@@ -1,9 +1,12 @@
+import { DefaultIterableDiffer } from '@angular/core';
+
 export class Satellite {
     name: string;
     orbitType: string;
     type: string;
     operational: boolean;
     launchDate: string;
+    changeColor: boolean;
     constructor(name: string, type: string, launchDate: string, orbitType: string, operational: boolean) {
         this.name = name;
         this.type = type;
